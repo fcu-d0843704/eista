@@ -1,0 +1,55 @@
+.profit_pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 30px 0 30px 0;
+    padding: 15px;
+}
+
+.profit_pannel > h1 {
+    margin-bottom: 30px;
+}
+
+.detail_views {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.detail_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divider {
+    width: 2px;
+    height: 130px;
+    background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .profit_pannel {
+        width: 90%;
+    }
+
+    .profit_pannel > h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .detail_box > h1 {
+        font-size: 25px;
+    }
+}
